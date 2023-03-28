@@ -7,7 +7,9 @@ import json
 
 from flask_cors import cross_origin
 
-from models import OrderInformation,CarProducts
+from ..models import OrderInformation, CarProducts
+from ..extensions import db
+
 
 # 未分配界面 作为首页
 bp = Blueprint("unallocated", __name__, url_prefix="/")
