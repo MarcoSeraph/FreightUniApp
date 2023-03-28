@@ -1,10 +1,7 @@
 import time
 from datetime import datetime
-
 from flask import Blueprint, render_template, jsonify, Response,request
-
 import json
-
 from flask_cors import cross_origin
 
 from ..models import OrderInformation, CarProducts

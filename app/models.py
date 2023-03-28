@@ -1,6 +1,4 @@
-from extensions import db
-
-
+from app.extensions import db
 class OrderInformation(db.Model):
     __tableName__ = "OrderInformation"   # 设置表名
     ClientId = db.Column(db.Integer, primary_key=True, autoincrement=True)
