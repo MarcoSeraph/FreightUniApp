@@ -4,8 +4,8 @@ from flask import Blueprint, render_template, jsonify, Response,request
 import json
 from flask_cors import cross_origin
 
-from ..models import OrderInformation, CarProducts
-from ..extensions import db
+from app.models import OrderInformation, CarProducts
+from app.extensions import db
 
 
 # 未分配界面 作为首页
